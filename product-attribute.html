@@ -1,0 +1,1632 @@
+<!doctype html>
+<html dir="ltr">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Product Attribute</title>
+	<!-- Favicons -->
+	<link href="assets/images/favicone.png" rel="icon">
+	<!-- font aweasome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+	<!-- bootstrap 5.2.2 -->
+	<script src="https://cdn.tailwindcss.com"></script>
+	<link href="dist/bootstrap-5.2.2/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+	<!-- form select -->
+	<link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+	<!-- fonts -->
+	<link href="dist/fonts/fonts.css" rel="stylesheet">
+	<!-- Main Stylesheet File -->
+	<link href="assets/css/aside.css" rel="stylesheet">
+	<link href="assets/css/style.css" rel="stylesheet">
+	<link href="assets/css/main.css" rel="stylesheet">
+	<link href="assets/css/media_queries.css" rel="stylesheet">
+	<link href="assets/css/rtl.css" rel="stylesheet">
+</head>
+
+<body>
+	<div class="app">
+		<div class="dashboard-wrapper flex">
+			<aside class="aside">
+				<button type="button" class="asideClose">
+					<i class="fa-solid fa-xmark"></i>
+				</button>
+				<a href="/" class="logo_wrapper flex items-center">
+					<div class="logo_holder">
+						<img src="assets/images/logo.png" alt="skilled logo" class="logo_img dark-none" />
+						<img src="assets/images/logo_white.svg" alt="skilled logo" class="logo_img d-none dark-show" />
+					</div>
+				</a>
+				<div class="aside_container">
+					<div class="asidbox">
+						<div class="asidbox_icons asidbox_icons2">
+							<div class="asidbox_icons-inner">
+								<i class="fa-solid fa-check"></i>
+							</div>
+						</div>
+						<p class="asidbox_Link">
+							Admin A7med
+						</p>
+						<div class="asidbox-sm">
+							<img src="assets/images/team2.jpg" alt="" class="asidbox-sm-img">
+							<p class="asidbox-sm-name">Admin A7med</p>
+						</div>
+					</div>
+					<a href="/" class="asidbox active">
+						<div class="asidbox_icons">
+							<i class="fa-solid fa-gauge asidbox_icons_icon"></i>
+						</div>
+						<p class="asidbox_Link">
+							Dashboard
+						</p>
+					</a>
+					<div class="asidbox">
+						<div class="asidbox_icons">
+							<i class="fa-solid fa-cart-shopping"></i>
+						</div>
+						<div class="asidbox_Link-wrapper">
+							<div class="asidbox_Link">
+								Inventory
+							</div>
+							<i class="fa-solid fa-chevron-down asidbox_LinkIcn"></i>
+						</div>
+						<ul class="aside-drop">
+							<li>
+								<a href="products.html" class="asidbox_Link2">
+									<div></div>
+									Products
+								</a>
+							</li>
+							<li>
+								<a href="categories.html" class="asidbox_Link2">
+									<div></div>
+									Categories
+								</a>
+							</li>
+							<li>
+								<a href="brands.html" class="asidbox_Link2">
+									<div></div>
+									Brands
+								</a>
+							</li>
+							<li>
+								<a href="#" class="asidbox_Link2">
+									<div></div>
+									Tax Settings
+								</a>
+							</li>
+							<li>
+								<a href="#" class="asidbox_Link2">
+									<div></div>
+									Warehouses
+								</a>
+							</li>
+							<li>
+								<a href="unit.html" class="asidbox_Link2">
+									<div></div>
+									Unit
+								</a>
+							</li>
+							<li>
+								<a href="collections.html" class="asidbox_Link2">
+									<div></div>
+									Collections
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="asidbox">
+						<div class="asidbox_icons">
+							<i class="fa-solid fa-basket-shopping"></i>
+						</div>
+						<div class="asidbox_Link-wrapper">
+							<div class="asidbox_Link">
+								Orders
+							</div>
+							<i class="fa-solid fa-chevron-down asidbox_LinkIcn"></i>
+						</div>
+						<ul class="aside-drop">
+							<li>
+								<a href="orders.html" class="asidbox_Link2">
+									<div></div>
+									All Order
+								</a>
+							</li>
+							<li>
+								<a href="order-returns.html" class="asidbox_Link2">
+									<div></div>
+									Returns
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="asidbox">
+						<div class="asidbox_icons">
+							<i class="fa-solid fa-file-invoice"></i>
+						</div>
+						<div class="asidbox_Link-wrapper">
+							<div class="asidbox_Link">
+								Reports
+							</div>
+							<i class="fa-solid fa-chevron-down asidbox_LinkIcn"></i>
+						</div>
+						<ul class="aside-drop">
+							<li>
+								<a href="reports.html" class="asidbox_Link2">
+									<div></div>
+									All Reports
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="asidbox">
+						<div class="asidbox_icons">
+							<i class="fa-solid fa-gears"></i>
+						</div>
+						<div class="asidbox_Link-wrapper">
+							<div class="asidbox_Link">
+								Themes Settings
+							</div>
+							<i class="fa-solid fa-chevron-down asidbox_LinkIcn"></i>
+						</div>
+						<ul class="aside-drop">
+							<li>
+								<a href="#" class="asidbox_Link2">
+									<div></div>
+									About us
+								</a>
+							</li>
+							<li>
+								<a href="contact.html" class="asidbox_Link2">
+									<div></div>
+									Contact us
+								</a>
+							</li>
+							<li>
+								<a href="#" class="asidbox_Link2">
+									<div></div>
+									Slider
+								</a>
+							</li>
+							<li>
+								<a href="ads.html" class="asidbox_Link2">
+									<div></div>
+									Ads
+								</a>
+							</li>
+							<li>
+								<a href="subscription.html" class="asidbox_Link2">
+									<div></div>
+									Subscription
+								</a>
+							</li>
+							<li>
+								<a href="privacy-policy.html" class="asidbox_Link2">
+									<div></div>
+									Privacy Policy
+								</a>
+							</li>
+							<li>
+								<a href="terms-and-conditions.html" class="asidbox_Link2">
+									<div></div>
+									Terms & Conditions
+								</a>
+							</li>
+							<li>
+								<a href="how-to-order.html" class="asidbox_Link2">
+									<div></div>
+									How to Order
+								</a>
+							</li>
+							<li>
+								<a href="blog.html" class="asidbox_Link2">
+									<div></div>
+									Blog
+								</a>
+							</li>
+							<li>
+								<a href="frequently-asked-questions.html" class="asidbox_Link2">
+									<div></div>
+									F&Q
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="asidbox">
+						<div class="asidbox_icons">
+							<i class="fa-solid fa-users"></i>
+						</div>
+						<div class="asidbox_Link-wrapper">
+							<div class="asidbox_Link">
+								Users
+							</div>
+							<i class="fa-solid fa-chevron-down asidbox_LinkIcn"></i>
+						</div>
+						<ul class="aside-drop">
+							<li>
+								<a href="#" class="asidbox_Link2">
+									<div></div>
+									Employees
+								</a>
+							</li>
+							<li>
+								<a href="#" class="asidbox_Link2">
+									<div></div>
+									Customers
+								</a>
+							</li>
+							<li>
+								<a href="#" class="asidbox_Link2">
+									<div></div>
+									Users
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="asidbox">
+						<div class="asidbox_icons">
+							<i class="fa-solid fa-gears"></i>
+						</div>
+						<div class="asidbox_Link-wrapper">
+							<div class="asidbox_Link">
+								Settings
+							</div>
+							<i class="fa-solid fa-chevron-down asidbox_LinkIcn"></i>
+						</div>
+						<ul class="aside-drop">
+							<li>
+								<a href="#" class="asidbox_Link2">
+									<div></div>
+									Role & Permission
+								</a>
+							</li>
+							<li>
+								<a href="#" class="asidbox_Link2">
+									<div></div>
+									Site Settings
+								</a>
+							</li>
+							<li>
+								<a href="#" class="asidbox_Link2">
+									<div></div>
+									Users
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="theme">
+						<p class="theme-p">Switch To Dark</p>
+						<div class="theme-btn">
+							<div class="theme-btn-onof"></div>
+						</div>
+					</div>
+					<button class="logout-btn">
+						Logout
+					</button>
+					<!-- <div class="flex items-center madebytexbox">
+					Made <span class="madeby"> By </span> Skilled Tech
+				</div> -->
+				</div>
+			</aside>
+			<main class="main">
+				<div class="dashboard_header">
+					<div class="navbar">
+						<button class="sidebar_btn">
+							<i class="fa-solid fa-bars-sort sidebar_btn_icon"></i>
+						</button>
+						<div class="navbar_box1">
+							<p class="navbar_box_text">Hello Admin</p>
+						</div>
+						<div class="navbar_box2">
+							<div class="navbar_search_box">
+								<input type="text" placeholder="Search" class="navbar_search_box_input" />
+								<button type="submit" class="navbar_search_box_btn">
+									<i class="fa fa-search navbar_search_box_btn_icone"></i>
+								</button>
+							</div>
+							<div class="language_toggle">
+								<div class="language_toggle_ar">
+									<i class="fa-solid fa-earth-europe"></i>
+									<p class="language_toggle-p">Ar</p>
+								</div>
+								<div class="language_toggle_en">
+									<i class="fa-solid fa-earth-europe"></i>
+									<p class="language_toggle-p">En</p>
+								</div>
+							</div>
+							<a href="#" class="vistsite-btn">
+								View The Shop
+								<i class="fa-solid fa-arrow-up-right-from-square"></i>
+							</a>
+							<div class="navbar_noti_box">
+								<i class="fa-solid fa-bell"></i>
+								<div class="notiDropDown">
+									<div class="notiHdr">
+										Notification
+										<div class="noti_box-mark">Mark all as read</div>
+									</div>
+									<div class="notiBody">
+										<div class="notiRow">
+											<div class="notiRowB">
+												<img src="assets/images/team3.jpg" alt="" class="notiRowB-img">
+											</div>
+											<div class="notiRow-bdy">
+												<a href="#" class="notiRow-bdy-link">New User Register in </a>
+												<p class="notiRow-bdy-time">1:20 PM</p>
+											</div>
+										</div>
+										<div class="notiRow">
+											<div class="notiRowB">
+												<img src="assets/images/products/laptop-computer.png" alt="" class="notiRowB-img">
+											</div>
+											<div class="notiRow-bdy">
+												<a href="#" class="notiRow-bdy-link">Product No <span class="orange">#238</span> out of
+													stock</a>
+												<p class="notiRow-bdy-time">1:20 PM</p>
+											</div>
+										</div>
+										<div class="notiRow">
+											<div class="notiRowB">
+												<img src="assets/images/team3.jpg" alt="" class="notiRowB-img">
+											</div>
+											<div class="notiRow-bdy">
+												<a href="#" class="notiRow-bdy-link">New User Register in </a>
+												<p class="notiRow-bdy-time">1:20 PM</p>
+											</div>
+										</div>
+									</div>
+									<div class="notiFtr">
+										<a href="#" class="notiFtr-link">See All Notification</a>
+									</div>
+								</div>
+							</div>
+							<!-- profile button with dropdown -->
+							<div class="dropdown">
+								<div class="nav_pf_box flex items-center dropdown-toggle" role="button" id="dropdownMenuLink"
+									data-bs-toggle="dropdown" aria-expanded="false">
+									<div class="nav_pf_box_hol">
+										<img src="assets/images/team2.jpg" alt="" class="nav_pf_box_img" />
+									</div>
+									<h6 class="nav_pf_box_name">Muhammad Ahmed</h6>
+								</div>
+								<ul class="dropdown-menu pfDropdown" aria-labelledby="dropdownMenuLink">
+									<li class="pfDropdown_item pfDropdown-hdr">
+										<a href="profile.html" class="pfDropdown_box gap-2 flex items-center">
+											<img src="assets/images/team2.jpg" alt="" class="pfDropdown_box-img">
+											<h6 class="pfDropdown_name pfDropdown_text2">Admin A7med</h6>
+										</a>
+									</li>
+									<li class="pfDropdown_item">
+										<a href="profile.html" class="pfDropdown_link">
+											<div class="pfDropdown_icone">
+												<i class="fa-solid fa-user"></i>
+											</div>
+											<h6 class="pfDropdown_text">My Profile</h6>
+										</a>
+									</li>
+									<li class="pfDropdown_item">
+										<a href="#" class="pfDropdown_link">
+											<div class="pfDropdown_icone">
+												<i class="fa-solid fa-bag-shopping"></i>
+											</div>
+											<h6 class="pfDropdown_text">Setting</h6>
+										</a>
+									</li>
+									<li class="pfDropdown_item pfDropdown_item-ftr">
+										<a href="login.html" class="pfDropdown_link">
+											<div class="pfDropdown_icone">
+												<i class="fa-solid fa-arrow-right-from-bracket"></i>
+											</div>
+											<h6 class="pfDropdown_text pfDropdown_text2">Log Out</h6>
+										</a>
+									</li>
+								</ul>
+							</div>
+							<!-- profile button with dropdown -->
+						</div>
+					</div>
+					<div class="navbar_search_box_mobile">
+						<input type="text" placeholder="search" class="navbar_search_box_mobile_input" />
+					</div>
+				</div>
+				<div class="main_body">
+					<div class="container-fluid">
+						<div class="card">
+							<div class="products-main-row products-main-row--pdattribute">
+								<div class="prdSide1">
+									<div class="prdattribute-hdr justify-between flex-i">
+										<div class="prdSide1-Srch flex-i">
+											<input type="text" placeholder="Search For" class="prdSide1-Srch_inpt">
+											<button type="submit" class="prdSide1-Srch_btn flex-a r-50">
+												<i class="fa fa-search"></i>
+											</button>
+										</div>
+										<div class="flex-i gap-2">
+											<a href="add-attribute-type.html" class="prdattribute-btn prdattribute-btn--tr flex-a">
+												Type
+											</a>
+											<a href="add-attribute-category.html" class="prdattribute-btn prdattribute-btn--tr flex-a">
+												Category
+											</a>
+											<button class="prdattribute-btn flex-a" type="button" data-bs-toggle="modal"
+												data-bs-target="#newAtrribute">
+												<i class="fa fa-plus"></i>
+												New Attribute
+											</button>
+										</div>
+
+									</div>
+									<div class="prdattribute-hdr2 flex-i justify-between">
+										<p class="prdattribute-p">
+											<i class="fa-solid fa-folder-open"></i>
+											Product Attribute
+										</p>
+										<div class="exprtBox-wrapr flex-i">
+											<div class="exprtBox flex-i">
+												<p class="exprtBox-p">Export To</p>
+												<div class="flex-i gap-2">
+													<a href="#" class="exprtBox-sm">
+														<i class="fa-solid fa-file-excel"></i>
+														<p class="exprtBox-sm-p">Excel</p>
+													</a>
+													<a href="#" class="exprtBox-sm">
+														<i class="fa-solid fa-file-pdf"></i>
+														<p class="exprtBox-sm-p">PDF</p>
+													</a>
+												</div>
+											</div>
+											<p class="or">or</p>
+											<a href="#" class="exprtBox-sm exprtBox-sm-green">
+												<i class="fa-solid fa-print"></i>
+												<p class="exprtBox-sm-p">Print</p>
+											</a>
+											<div class="prdShowFiltr flex-i">
+												<div class="flex-i gap-2">
+													<p class="prdShowFiltr-p">Show</p>
+													<select name="" id="" class="form-select prdShowFiltr-sel prdShowFiltr-sel1">
+														<option value="">10</option>
+														<option value="">15</option>
+													</select>
+												</div>
+												<select name="" id="" class="form-select prdShowFiltr-sel prdShowFiltr-sel2">
+													<option selected disabled>Sort By</option>
+													<option value="">name</option>
+													<option value="">Date</option>
+												</select>
+											</div>
+											<div class="listGridBtnWrpr flex-i">
+												<div class="girdbtn flex-a">
+													<i class="fa-solid fa-grip"></i>
+												</div>
+												<div class="listbtn flex-a active">
+													<i class="fa-sharp fa-solid fa-list"></i>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="prdattribute-body">
+										<div class="listview listview--prdtview active">
+											<div class="attriboxList">
+												<p class="attriboxList-p">
+													<i class="fa-solid fa-folder-open"></i>
+													Memory Storage
+												</p>
+												<div class="attriboxList-box flex-i">
+													<div class="attriboxList-box-mini flex-a r-50">
+														<i class="fa-solid fa-check"></i>
+													</div>
+													<p class="attriboxList-box-p">7-3-2023</p>
+													<div class="tblprdShow">
+														<div class="tblprdShow-mini">
+															<i class="fa-solid fa-ellipsis-vertical"></i>
+														</div>
+														<div class="tblprdShow-ab">
+															<div class="tblprdShow-ab-row flex-i" type="button" data-bs-toggle="modal"
+																data-bs-target="#attributeDetails">
+																<i class="fa-solid fa-cube"></i>
+																<p class="tblprdShow-ab-text">Details</p>
+															</div>
+															<div class="tblprdShow-ab-row flex-i" type="button" data-bs-toggle="modal"
+																data-bs-target="#editnewAtrribute">
+																<i class="fa-solid fa-pen"></i>
+																<p class="tblprdShow-ab-text">Edit</p>
+															</div>
+															<div class="tblprdShow-ab-row flex-i" type="button" data-bs-toggle="modal"
+																data-bs-target="#delmdl">
+																<i class="fa-solid fa-trash"></i>
+																<p class="tblprdShow-ab-text">Delete</p>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="attriboxList">
+												<p class="attriboxList-p">
+													<i class="fa-solid fa-folder-open"></i>
+													CPU
+												</p>
+												<div class="attriboxList-box flex-i">
+													<div class="attriboxList-box-mini flex-a r-50">
+														<i class="fa-solid fa-check"></i>
+													</div>
+													<p class="attriboxList-box-p">7-3-2023</p>
+													<div class="tblprdShow">
+														<div class="tblprdShow-mini">
+															<i class="fa-solid fa-ellipsis-vertical"></i>
+														</div>
+														<div class="tblprdShow-ab">
+															<div class="tblprdShow-ab-row flex-i" type="button" data-bs-toggle="modal"
+																data-bs-target="#attributeDetails">
+																<i class="fa-solid fa-cube"></i>
+																<p class="tblprdShow-ab-text">Details</p>
+															</div>
+															<div class="tblprdShow-ab-row flex-i" type="button" data-bs-toggle="modal"
+																data-bs-target="#editnewAtrribute">
+																<i class="fa-solid fa-cube"></i>
+																<p class="tblprdShow-ab-text">Edit</p>
+															</div>
+															<div class="tblprdShow-ab-row flex-i" type="button" data-bs-toggle="modal"
+																data-bs-target="#delmdl">
+																<i class="fa-solid fa-trash"></i>
+																<p class="tblprdShow-ab-text">Delete</p>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="attriboxList">
+												<p class="attriboxList-p">
+													<i class="fa-solid fa-folder-open"></i>
+													Installed RAM
+												</p>
+												<div class="attriboxList-box flex-i">
+													<div class="attriboxList-box-mini flex-a r-50">
+														<i class="fa-solid fa-check"></i>
+													</div>
+													<p class="attriboxList-box-p">7-3-2023</p>
+													<div class="tblprdShow">
+														<div class="tblprdShow-mini">
+															<i class="fa-solid fa-ellipsis-vertical"></i>
+														</div>
+														<div class="tblprdShow-ab">
+															<div class="tblprdShow-ab-row flex-i" type="button" data-bs-toggle="modal"
+																data-bs-target="#attributeDetails">
+																<i class="fa-solid fa-cube"></i>
+																<p class="tblprdShow-ab-text">Details</p>
+															</div>
+															<div class="tblprdShow-ab-row flex-i" type="button" data-bs-toggle="modal"
+																data-bs-target="#editnewAtrribute">
+																<i class="fa-solid fa-pen"></i>
+																<p class="tblprdShow-ab-text">Edit</p>
+															</div>
+															<div class="tblprdShow-ab-row flex-i" type="button" data-bs-toggle="modal"
+																data-bs-target="#delmdl">
+																<i class="fa-solid fa-trash"></i>
+																<p class="tblprdShow-ab-text">Delete</p>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="attriboxList">
+												<p class="attriboxList-p">
+													<i class="fa-solid fa-folder-open"></i>
+													Memory Storage
+												</p>
+												<div class="attriboxList-box flex-i">
+													<div class="attriboxList-box-mini flex-a r-50">
+														<i class="fa-solid fa-check"></i>
+													</div>
+													<p class="attriboxList-box-p">7-3-2023</p>
+													<div class="tblprdShow">
+														<div class="tblprdShow-mini">
+															<i class="fa-solid fa-ellipsis-vertical"></i>
+														</div>
+														<div class="tblprdShow-ab">
+															<div class="tblprdShow-ab-row flex-i" type="button" data-bs-toggle="modal"
+																data-bs-target="#attributeDetails">
+																<i class="fa-solid fa-cube"></i>
+																<p class="tblprdShow-ab-text">Details</p>
+															</div>
+															<div class="tblprdShow-ab-row flex-i" type="button" data-bs-toggle="modal"
+																data-bs-target="#editnewAtrribute">
+																<i class="fa-solid fa-pen"></i>
+																<p class="tblprdShow-ab-text">Edit</p>
+															</div>
+															<div class="tblprdShow-ab-row flex-i" type="button" data-bs-toggle="modal"
+																data-bs-target="#delmdl">
+																<i class="fa-solid fa-trash"></i>
+																<p class="tblprdShow-ab-text">Delete</p>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="attriboxList">
+												<p class="attriboxList-p">
+													<i class="fa-solid fa-folder-open"></i>
+													Style
+												</p>
+												<div class="attriboxList-box flex-i">
+													<div class="attriboxList-box-mini flex-a r-50">
+														<i class="fa-solid fa-check"></i>
+													</div>
+													<p class="attriboxList-box-p">7-3-2023</p>
+													<div class="tblprdShow">
+														<div class="tblprdShow-mini">
+															<i class="fa-solid fa-ellipsis-vertical"></i>
+														</div>
+														<div class="tblprdShow-ab">
+															<div class="tblprdShow-ab-row flex-i" type="button" data-bs-toggle="modal"
+																data-bs-target="#attributeDetails">
+																<i class="fa-solid fa-cube"></i>
+																<p class="tblprdShow-ab-text">Details</p>
+															</div>
+															<div class="tblprdShow-ab-row flex-i" type="button" data-bs-toggle="modal"
+																data-bs-target="#editnewAtrribute">
+																<i class="fa-solid fa-pen"></i>
+																<p class="tblprdShow-ab-text">Edit</p>
+															</div>
+															<div class="tblprdShow-ab-row flex-i" type="button" data-bs-toggle="modal"
+																data-bs-target="#delmdl">
+																<i class="fa-solid fa-trash"></i>
+																<p class="tblprdShow-ab-text">Delete</p>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="attriboxList">
+												<p class="attriboxList-p">
+													<i class="fa-solid fa-folder-open"></i>
+													Memory Storage
+												</p>
+												<div class="attriboxList-box flex-i">
+													<div class="attriboxList-box-mini flex-a r-50">
+														<i class="fa-solid fa-check"></i>
+													</div>
+													<p class="attriboxList-box-p">7-3-2023</p>
+													<div class="tblprdShow">
+														<div class="tblprdShow-mini">
+															<i class="fa-solid fa-ellipsis-vertical"></i>
+														</div>
+														<div class="tblprdShow-ab">
+															<div class="tblprdShow-ab-row flex-i" type="button" data-bs-toggle="modal"
+																data-bs-target="#attributeDetails">
+																<i class="fa-solid fa-cube"></i>
+																<p class="tblprdShow-ab-text">Details</p>
+															</div>
+															<div class="tblprdShow-ab-row flex-i" type="button" data-bs-toggle="modal"
+																data-bs-target="#editnewAtrribute">
+																<i class="fa-solid fa-pen"></i>
+																<p class="tblprdShow-ab-text">Edit</p>
+															</div>
+															<div class="tblprdShow-ab-row flex-i" type="button" data-bs-toggle="modal"
+																data-bs-target="#delmdl">
+																<i class="fa-solid fa-trash"></i>
+																<p class="tblprdShow-ab-text">Delete</p>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="attriboxList">
+												<p class="attriboxList-p">
+													<i class="fa-solid fa-folder-open"></i>
+													Memory Storage
+												</p>
+												<div class="attriboxList-box flex-i">
+													<div class="attriboxList-box-mini flex-a r-50">
+														<i class="fa-solid fa-check"></i>
+													</div>
+													<p class="attriboxList-box-p">7-3-2023</p>
+													<div class="tblprdShow">
+														<div class="tblprdShow-mini">
+															<i class="fa-solid fa-ellipsis-vertical"></i>
+														</div>
+														<div class="tblprdShow-ab">
+															<div class="tblprdShow-ab-row flex-i" type="button" data-bs-toggle="modal"
+																data-bs-target="#attributeDetails">
+																<i class="fa-solid fa-cube"></i>
+																<p class="tblprdShow-ab-text">Details</p>
+															</div>
+															<div class="tblprdShow-ab-row flex-i" type="button" data-bs-toggle="modal"
+																data-bs-target="#editnewAtrribute">
+																<i class="fa-solid fa-pen"></i>
+																<p class="tblprdShow-ab-text">Edit</p>
+															</div>
+															<div class="tblprdShow-ab-row flex-i" type="button" data-bs-toggle="modal"
+																data-bs-target="#delmdl">
+																<i class="fa-solid fa-trash"></i>
+																<p class="tblprdShow-ab-text">Delete</p>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="attriboxList">
+												<p class="attriboxList-p">
+													<i class="fa-solid fa-folder-open"></i>
+													Memory Storage
+												</p>
+												<div class="attriboxList-box flex-i">
+													<div class="attriboxList-box-mini flex-a r-50">
+														<i class="fa-solid fa-check"></i>
+													</div>
+													<p class="attriboxList-box-p">7-3-2023</p>
+													<div class="tblprdShow">
+														<div class="tblprdShow-mini">
+															<i class="fa-solid fa-ellipsis-vertical"></i>
+														</div>
+														<div class="tblprdShow-ab">
+															<div class="tblprdShow-ab-row flex-i" type="button" data-bs-toggle="modal"
+																data-bs-target="#attributeDetails">
+																<i class="fa-solid fa-cube"></i>
+																<p class="tblprdShow-ab-text">Details</p>
+															</div>
+															<div class="tblprdShow-ab-row flex-i" type="button" data-bs-toggle="modal"
+																data-bs-target="#">
+																<i class="fa-solid fa-pen"></i>
+																<p class="tblprdShow-ab-text">Edit</p>
+															</div>
+															<div class="tblprdShow-ab-row flex-i" type="button" data-bs-toggle="modal"
+																data-bs-target="#delmdl">
+																<i class="fa-solid fa-trash"></i>
+																<p class="tblprdShow-ab-text">Delete</p>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="gridview gridview--prdtview">
+											<div class="attriboxgrid">
+												<div class="attriboxgrid-row1 flex-i attriboxList-p justify-between">
+													<i class="fa-solid fa-folder-open"></i>
+													<div class="attriboxList-box flex-i">
+														<div class="tblprdShow">
+															<div class="tblprdShow-mini">
+																<i class="fa-solid fa-ellipsis-vertical"></i>
+															</div>
+															<div class="tblprdShow-ab">
+																<div class="tblprdShow-ab-row flex-i" type="button" data-bs-toggle="modal"
+																	data-bs-target="#attributeDetails">
+																	<i class="fa-solid fa-cube"></i>
+																	<p class="tblprdShow-ab-text">Details</p>
+																</div>
+																<div class="tblprdShow-ab-row flex-i" type="button" data-bs-toggle="modal"
+																	data-bs-target="#">
+																	<i class="fa-solid fa-pen"></i>
+																	<p class="tblprdShow-ab-text">Edit</p>
+																</div>
+																<div class="tblprdShow-ab-row flex-i" type="button" data-bs-toggle="modal"
+																	data-bs-target="#delmdl">
+																	<i class="fa-solid fa-trash"></i>
+																	<p class="tblprdShow-ab-text">Delete</p>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<p class="attriboxList-p2">
+													Memory Storage
+												</p>
+												<div class="flex-i attriboxgrid-row2">
+													<div class="attriboxList-box-mini flex-a r-50">
+														<i class="fa-solid fa-check"></i>
+													</div>
+													<p class="attriboxList-box-p">7-3-2023</p>
+												</div>
+											</div>
+											<div class="attriboxgrid">
+												<div class="attriboxgrid-row1 flex-i attriboxList-p justify-between">
+													<i class="fa-solid fa-folder-open"></i>
+													<div class="attriboxList-box flex-i">
+														<div class="tblprdShow">
+															<div class="tblprdShow-mini">
+																<i class="fa-solid fa-ellipsis-vertical"></i>
+															</div>
+															<div class="tblprdShow-ab">
+																<div class="tblprdShow-ab-row flex-i" type="button" data-bs-toggle="modal"
+																	data-bs-target="#attributeDetails">
+																	<i class="fa-solid fa-cube"></i>
+																	<p class="tblprdShow-ab-text">Details</p>
+																</div>
+																<div class="tblprdShow-ab-row flex-i" type="button" data-bs-toggle="modal"
+																	data-bs-target="#">
+																	<i class="fa-solid fa-pen"></i>
+																	<p class="tblprdShow-ab-text">Edit</p>
+																</div>
+																<div class="tblprdShow-ab-row flex-i" type="button" data-bs-toggle="modal"
+																	data-bs-target="#delmdl">
+																	<i class="fa-solid fa-trash"></i>
+																	<p class="tblprdShow-ab-text">Delete</p>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<p class="attriboxList-p2">
+													CPU
+												</p>
+												<div class="flex-i attriboxgrid-row2">
+													<div class="attriboxList-box-mini flex-a r-50">
+														<i class="fa-solid fa-check"></i>
+													</div>
+													<p class="attriboxList-box-p">7-3-2023</p>
+												</div>
+											</div>
+											<div class="attriboxgrid">
+												<div class="attriboxgrid-row1 flex-i attriboxList-p justify-between">
+													<i class="fa-solid fa-folder-open"></i>
+													<div class="attriboxList-box flex-i">
+														<div class="tblprdShow">
+															<div class="tblprdShow-mini">
+																<i class="fa-solid fa-ellipsis-vertical"></i>
+															</div>
+															<div class="tblprdShow-ab">
+																<div class="tblprdShow-ab-row flex-i" type="button" data-bs-toggle="modal"
+																	data-bs-target="#attributeDetails">
+																	<i class="fa-solid fa-cube"></i>
+																	<p class="tblprdShow-ab-text">Details</p>
+																</div>
+																<div class="tblprdShow-ab-row flex-i" type="button" data-bs-toggle="modal"
+																	data-bs-target="#">
+																	<i class="fa-solid fa-pen"></i>
+																	<p class="tblprdShow-ab-text">Edit</p>
+																</div>
+																<div class="tblprdShow-ab-row flex-i" type="button" data-bs-toggle="modal"
+																	data-bs-target="#delmdl">
+																	<i class="fa-solid fa-trash"></i>
+																	<p class="tblprdShow-ab-text">Delete</p>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<p class="attriboxList-p2">
+													Installed RAM
+												</p>
+												<div class="flex-i attriboxgrid-row2">
+													<div class="attriboxList-box-mini flex-a r-50">
+														<i class="fa-solid fa-check"></i>
+													</div>
+													<p class="attriboxList-box-p">7-3-2023</p>
+												</div>
+											</div>
+											<div class="attriboxgrid">
+												<div class="attriboxgrid-row1 flex-i attriboxList-p justify-between">
+													<i class="fa-solid fa-folder-open"></i>
+													<div class="attriboxList-box flex-i">
+														<div class="tblprdShow">
+															<div class="tblprdShow-mini">
+																<i class="fa-solid fa-ellipsis-vertical"></i>
+															</div>
+															<div class="tblprdShow-ab">
+																<div class="tblprdShow-ab-row flex-i" type="button" data-bs-toggle="modal"
+																	data-bs-target="#attributeDetails">
+																	<i class="fa-solid fa-cube"></i>
+																	<p class="tblprdShow-ab-text">Details</p>
+																</div>
+																<div class="tblprdShow-ab-row flex-i" type="button" data-bs-toggle="modal"
+																	data-bs-target="#">
+																	<i class="fa-solid fa-pen"></i>
+																	<p class="tblprdShow-ab-text">Edit</p>
+																</div>
+																<div class="tblprdShow-ab-row flex-i" type="button" data-bs-toggle="modal"
+																	data-bs-target="#delmdl">
+																	<i class="fa-solid fa-trash"></i>
+																	<p class="tblprdShow-ab-text">Delete</p>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<p class="attriboxList-p2">
+													Style
+												</p>
+												<div class="flex-i attriboxgrid-row2">
+													<div class="attriboxList-box-mini flex-a r-50">
+														<i class="fa-solid fa-check"></i>
+													</div>
+													<p class="attriboxList-box-p">7-3-2023</p>
+												</div>
+											</div>
+											<div class="attriboxgrid">
+												<div class="attriboxgrid-row1 flex-i attriboxList-p justify-between">
+													<i class="fa-solid fa-folder-open"></i>
+													<div class="attriboxList-box flex-i">
+														<div class="tblprdShow">
+															<div class="tblprdShow-mini">
+																<i class="fa-solid fa-ellipsis-vertical"></i>
+															</div>
+															<div class="tblprdShow-ab">
+																<div class="tblprdShow-ab-row flex-i" type="button" data-bs-toggle="modal"
+																	data-bs-target="#attributeDetails">
+																	<i class="fa-solid fa-cube"></i>
+																	<p class="tblprdShow-ab-text">Details</p>
+																</div>
+																<div class="tblprdShow-ab-row flex-i" type="button" data-bs-toggle="modal"
+																	data-bs-target="#">
+																	<i class="fa-solid fa-cube"></i>
+																	<p class="tblprdShow-ab-text">Edit</p>
+																</div>
+																<div class="tblprdShow-ab-row flex-i" type="button" data-bs-toggle="modal"
+																	data-bs-target="#delmdl">
+																	<i class="fa-solid fa-trash"></i>
+																	<p class="tblprdShow-ab-text">Delete</p>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<p class="attriboxList-p2">
+													Memory Storage
+												</p>
+												<div class="flex-i attriboxgrid-row2">
+													<div class="attriboxList-box-mini flex-a r-50">
+														<i class="fa-solid fa-check"></i>
+													</div>
+													<p class="attriboxList-box-p">7-3-2023</p>
+												</div>
+											</div>
+											<div class="attriboxgrid">
+												<div class="attriboxgrid-row1 flex-i attriboxList-p justify-between">
+													<i class="fa-solid fa-folder-open"></i>
+													<div class="attriboxList-box flex-i">
+														<div class="tblprdShow">
+															<div class="tblprdShow-mini">
+																<i class="fa-solid fa-ellipsis-vertical"></i>
+															</div>
+															<div class="tblprdShow-ab">
+																<div class="tblprdShow-ab-row flex-i" type="button" data-bs-toggle="modal"
+																	data-bs-target="#attributeDetails">
+																	<i class="fa-solid fa-cube"></i>
+																	<p class="tblprdShow-ab-text">Details</p>
+																</div>
+																<div class="tblprdShow-ab-row flex-i" type="button" data-bs-toggle="modal"
+																	data-bs-target="#">
+																	<i class="fa-solid fa-cube"></i>
+																	<p class="tblprdShow-ab-text">Edit</p>
+																</div>
+																<div class="tblprdShow-ab-row flex-i" type="button" data-bs-toggle="modal"
+																	data-bs-target="#delmdl">
+																	<i class="fa-solid fa-trash"></i>
+																	<p class="tblprdShow-ab-text">Delete</p>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<p class="attriboxList-p2">
+													CPU
+												</p>
+												<div class="flex-i attriboxgrid-row2">
+													<div class="attriboxList-box-mini flex-a r-50">
+														<i class="fa-solid fa-check"></i>
+													</div>
+													<p class="attriboxList-box-p">7-3-2023</p>
+												</div>
+											</div>
+											<div class="attriboxgrid">
+												<div class="attriboxgrid-row1 flex-i attriboxList-p justify-between">
+													<i class="fa-solid fa-folder-open"></i>
+													<div class="attriboxList-box flex-i">
+														<div class="tblprdShow">
+															<div class="tblprdShow-mini">
+																<i class="fa-solid fa-ellipsis-vertical"></i>
+															</div>
+															<div class="tblprdShow-ab">
+																<div class="tblprdShow-ab-row flex-i" type="button" data-bs-toggle="modal"
+																	data-bs-target="#attributeDetails">
+																	<i class="fa-solid fa-cube"></i>
+																	<p class="tblprdShow-ab-text">Details</p>
+																</div>
+																<div class="tblprdShow-ab-row flex-i" type="button" data-bs-toggle="modal"
+																	data-bs-target="#">
+																	<i class="fa-solid fa-cube"></i>
+																	<p class="tblprdShow-ab-text">Edit</p>
+																</div>
+																<div class="tblprdShow-ab-row flex-i" type="button" data-bs-toggle="modal"
+																	data-bs-target="#delmdl">
+																	<i class="fa-solid fa-trash"></i>
+																	<p class="tblprdShow-ab-text">Delete</p>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<p class="attriboxList-p2">
+													Installed RAM
+												</p>
+												<div class="flex-i attriboxgrid-row2">
+													<div class="attriboxList-box-mini flex-a r-50">
+														<i class="fa-solid fa-check"></i>
+													</div>
+													<p class="attriboxList-box-p">7-3-2023</p>
+												</div>
+											</div>
+											<div class="attriboxgrid">
+												<div class="attriboxgrid-row1 flex-i attriboxList-p justify-between">
+													<i class="fa-solid fa-folder-open"></i>
+													<div class="attriboxList-box flex-i">
+														<div class="tblprdShow">
+															<div class="tblprdShow-mini">
+																<i class="fa-solid fa-ellipsis-vertical"></i>
+															</div>
+															<div class="tblprdShow-ab">
+																<div class="tblprdShow-ab-row flex-i" type="button" data-bs-toggle="modal"
+																	data-bs-target="#attributeDetails">
+																	<i class="fa-solid fa-cube"></i>
+																	<p class="tblprdShow-ab-text">Details</p>
+																</div>
+																<div class="tblprdShow-ab-row flex-i" type="button" data-bs-toggle="modal"
+																	data-bs-target="#">
+																	<i class="fa-solid fa-cube"></i>
+																	<p class="tblprdShow-ab-text">Edit</p>
+																</div>
+																<div class="tblprdShow-ab-row flex-i" type="button" data-bs-toggle="modal"
+																	data-bs-target="#delmdl">
+																	<i class="fa-solid fa-trash"></i>
+																	<p class="tblprdShow-ab-text">Delete</p>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<p class="attriboxList-p2">
+													Style
+												</p>
+												<div class="flex-i attriboxgrid-row2">
+													<div class="attriboxList-box-mini flex-a r-50">
+														<i class="fa-solid fa-check"></i>
+													</div>
+													<p class="attriboxList-box-p">7-3-2023</p>
+												</div>
+											</div>
+										</div>
+										<div class="table2-pagi flex-i justify-between">
+											<a href="#" class="table2-pagi-pre flex-a">
+												<i class="fa-solid fa-angle-left"></i>
+											</a>
+											<div class="page-link flex-i">
+												<a href="#" class="plik active">1</a>
+												<a href="#" class="plik">2</a>
+												<a href="#" class="plik">3</a>
+												<a href="#" class="plik">4</a>
+												<a href="#" class="plik">5</a>
+												<a href="#" class="plik">6</a>
+												<a href="#" class="plik">7</a>
+											</div>
+											<a href="#" class="table2-pagi-next flex-a">
+												<i class="fa-solid fa-angle-right"></i>
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="prdSide2">
+									<div class="prdSide2_box flex-i">
+										<div class="prdSide2_box-box1">Attribute Activity</div>
+										<div class="prdSide2_box-box2 flex-a">
+											<i class="fa-solid fa-folder-plus"></i>
+										</div>
+									</div>
+									<div class="attriSideTab">
+										<p class="attriSideTab-p">All Attribute </p>
+										<div class="attriSideTab-mini flex-a r-50">
+											20
+										</div>
+									</div>
+									<div class="attriSideTab">
+										<p class="attriSideTab-p">All Categories </p>
+										<div class="attriSideTab-mini flex-a r-50">
+											20
+										</div>
+									</div>
+									<div class="attriSideTab">
+										<p class="attriSideTab-p">All Types</p>
+										<div class="attriSideTab-mini flex-a r-50">
+											20
+										</div>
+									</div>
+									<div class="attriSideTab-wrpr flex-i justify-between">
+										<button class="attriSideTab-btn flex-a" type="button" data-bs-toggle="modal"
+											data-bs-target="#crtcate">
+											<i class="fa-solid fa-plus"></i>
+											New Category
+										</button>
+										<button class="attriSideTab-btn flex-a" type="button" data-bs-toggle="modal"
+											data-bs-target="#newtype">
+											<i class="fa-solid fa-plus"></i>
+											New Type
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</main>
+		</div>
+	</div>
+	<!-- prdoduct details Modal -->
+	<div class="modal fade" id="prddet" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content prdmdl">
+				<div class="modal-body">
+					<div class="prdmdlhdr">
+						<img src="assets/images/products/gaming-pc.png" alt="" class="prdmdlhdr-img">
+					</div>
+					<div class="prdmdlhdrp-name">EVGA SuperNOVA 1000 G5, 80 Plus</div>
+					<div class="prdmdltbl">
+						<div class="prdmdltbl-row">
+							<div class="prdmdltblcol">Category</div>
+							<div class="prdmdltblcol">Price</div>
+							<div class="prdmdltblcol">Status</div>
+							<div class="prdmdltblcol">Quantity</div>
+						</div>
+						<div class="prdmdltbl-row">
+							<div class="prdmdltblcol">
+								Category1
+							</div>
+							<div class="prdmdltblcol">
+								<div class="nCstmr-prc">
+									500 <span>AED</span>
+								</div>
+							</div>
+							<div class="prdmdltblcol">
+								<span class="stock">
+									instock
+								</span>
+							</div>
+							<div class="prdmdltblcol">
+								120
+								<span class="grey"> PCS</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- attribute details modal start -->
+	<div class="modal fade" id="attributeDetails" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered modal-lg">
+			<div class="modal-content pd-0">
+				<div class="attributeDetails__mdl">
+					<div class="attributeDetails__mdl-hdr">
+						Group Number # 1
+					</div>
+					<div class="attributeDetails__mdl-bdy">
+						<div class="attributeDetails__row flex-i">
+							<div class="attributeDetails__box-mini flex-a r-50">
+								<i class="fa-solid fa-check"></i>
+							</div>
+							<p class="attributeDetails__p">Memory Storage </p>
+						</div>
+						<div class="attributeDetails__row flex">
+							<div class="attributeDetails__box-mini flex-a r-50">
+								<i class="fa-solid fa-check"></i>
+							</div>
+							<div class="attributeDetails__row-box2">
+								<p class="attributeDetails__p">Group Details </p>
+								<div class="attrDetBox-wrpr flex flex-wrap">
+									<div class="attrDetBox">
+										<div class="attrDetBox-c1">Title :</div>
+										<div class="attrDetBox-c2">SSD</div>
+									</div>
+									<div class="attrDetBox">
+										<div class="attrDetBox-c1">Value :</div>
+										<div class="attrDetBox-c2">512</div>
+									</div>
+									<div class="attrDetBox">
+										<div class="attrDetBox-c1">Type :</div>
+										<div class="attrDetBox-c2">GB</div>
+									</div>
+									<div class="attrDetBox">
+										<div class="attrDetBox-c1">Category :</div>
+										<div class="attrDetBox-c2"> Laptop</div>
+									</div>
+									<div class="attrDetBox">
+										<div class="attrDetBox-c1">Value :</div>
+										<div class="attrDetBox-c2">512</div>
+									</div>
+									<div class="attrDetBox">
+										<div class="attrDetBox-c1">Type :</div>
+										<div class="attrDetBox-c2">GB</div>
+									</div>
+									<div class="attrDetBox">
+										<div class="attrDetBox-c1">Category :</div>
+										<div class="attrDetBox-c2"> Laptop</div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- attribute details modal end -->
+	<!-- newAtrribute modal start -->
+	<div class="modal fade" id="newAtrribute" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered modal-lg">
+			<div class="modal-content pd-0">
+				<div class="attributeDetails__mdl">
+					<div class="attributeDetails__mdl-hdr">
+						<i class="fa-solid fa-folder-plus"></i>
+						Create New Attribute Group
+					</div>
+					<div class="attributeDetails__mdl-bdy">
+						<div class="newAttrimdlBox">
+							<p class="newAttrimdlBox-p">Group Name</p>
+							<div class="form-input-box position-relative">
+								<input type="text" placeholder="Name" class="inputF mb-0">
+								<span class="form-input-sm-name">Name </span>
+							</div>
+						</div>
+						<div class="newAttrimdlBox-row justify-between">
+							<div class="newAttrimdlBox-half">
+								<p class="newAttrimdlBox-p">Select Category</p>
+								<div class="newAttrimdlBox-half-row flex-i justify-between">
+									<div class="newAttrimdlBox-half-row-box1">
+										<select name="" id="" class="inputF mb-0">
+											<option value="">Category</option>
+											<option value="">Category1</option>
+											<option value="">Category2</option>
+											<option value="">Category3</option>
+											<option value="">Category4</option>
+											<option value="">Category5</option>
+										</select>
+									</div>
+									<div class="newAttrimdlBox-half-row-box2 flex-a" type="button" data-bs-toggle="modal"
+										data-bs-target="#crtcate">
+										<i class="fa fa-plus"></i>
+									</div>
+								</div>
+							</div>
+							<div class="newAttrimdlBox-half">
+								<p class="newAttrimdlBox-p">Select Type</p>
+								<div class="newAttrimdlBox-half-row flex-i justify-between">
+									<div class="newAttrimdlBox-half-row-box1">
+										<select name="" id="" class="inputF mb-0">
+											<option value="">Type</option>
+											<option value="">Type1</option>
+											<option value="">Type2</option>
+											<option value="">Type3</option>
+											<option value="">Type4</option>
+											<option value="">Type5</option>
+										</select>
+									</div>
+									<div class="newAttrimdlBox-half-row-box2 flex-a" type="button" data-bs-toggle="modal"
+										data-bs-target="#newtype">
+										<i class="fa fa-plus"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+						<p class="newAttrimdlBox-p newAttrimdlBox-p--ferozi">Attribute Details</p>
+						<div class="newAttrimdlBox-row justify-between">
+							<div class="newAttrimdlBox-half">
+								<div class="form-input-box position-relative">
+									<input type="text" placeholder="Title" class="inputF mb-0">
+									<span class="form-input-sm-name">Title </span>
+								</div>
+							</div>
+							<div class="newAttrimdlBox-half">
+								<div class="form-input-box position-relative">
+									<input type="text" placeholder="Value" class="inputF mb-0">
+									<span class="form-input-sm-name">Value </span>
+								</div>
+							</div>
+						</div>
+						<p class="newAttrimdlBox-p">New Attribute</p>
+						<div class="newAttrimdlBox-row justify-between">
+							<div class="addNewAttriBtn">
+								<i class="fa fa-plus"></i>
+							</div>
+							<div class="addnewattriform">
+								<input type="text" placeholder="attribute name" class="addnewattriform-input">
+								<button type="submit" class="addnewattriform-btn flex-a">Save</button>
+							</div>
+						</div>
+						<div class="addnewextrafeild">
+							<div class="attriboxList-box flex-i">
+								<div class="attriboxList-box-mini flex-a r-50">
+									<i class="fa-solid fa-check"></i>
+								</div>
+								<p class="attriboxList-box-p">New Extra Fields </p>
+							</div>
+							<div class="addnewextrafeild-del-btn flex-a"><i class="fa-solid fa-trash-can"></i> Delete</div>
+						</div>
+					</div>
+					<div class="mdl-ftr">
+						<div class="creat-prdftr gap-4 flex-i justify-end">
+							<button class="prdftr-btn prdftr-btn1 prdftr-btn3  flex-a" data-bs-dismiss="modal">Cancel</button>
+							<button class="prdftr-btn prdftr-btn2 flex-a">Save</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="editnewAtrribute" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered modal-lg">
+			<div class="modal-content pd-0">
+				<div class="attributeDetails__mdl">
+					<div class="attributeDetails__mdl-hdr">
+						<i class="fa-solid fa-folder-plus"></i>
+						Update Attribute Group
+					</div>
+					<div class="attributeDetails__mdl-bdy">
+						<div class="newAttrimdlBox">
+							<p class="newAttrimdlBox-p">Group Name</p>
+							<div class="form-input-box position-relative">
+								<input type="text" placeholder="Name" class="inputF mb-0">
+								<span class="form-input-sm-name">Name </span>
+							</div>
+						</div>
+						<div class="newAttrimdlBox-row justify-between">
+							<div class="newAttrimdlBox-half">
+								<p class="newAttrimdlBox-p">Select Category</p>
+								<div class="newAttrimdlBox-half-row flex-i justify-between">
+									<div class="newAttrimdlBox-half-row-box1">
+										<select name="" id="" class="inputF mb-0">
+											<option value="">Category</option>
+											<option value="">Category1</option>
+											<option value="">Category2</option>
+											<option value="">Category3</option>
+											<option value="">Category4</option>
+											<option value="">Category5</option>
+										</select>
+									</div>
+									<div class="newAttrimdlBox-half-row-box2 flex-a" type="button" data-bs-toggle="modal"
+										data-bs-target="#crtcate">
+										<i class="fa fa-plus"></i>
+									</div>
+								</div>
+							</div>
+							<div class="newAttrimdlBox-half">
+								<p class="newAttrimdlBox-p">Select Type</p>
+								<div class="newAttrimdlBox-half-row flex-i justify-between">
+									<div class="newAttrimdlBox-half-row-box1">
+										<select name="" id="" class="inputF mb-0">
+											<option value="">Type</option>
+											<option value="">Type1</option>
+											<option value="">Type2</option>
+											<option value="">Type3</option>
+											<option value="">Type4</option>
+											<option value="">Type5</option>
+										</select>
+									</div>
+									<div class="newAttrimdlBox-half-row-box2 flex-a" type="button" data-bs-toggle="modal"
+										data-bs-target="#newtype">
+										<i class="fa fa-plus"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+						<p class="newAttrimdlBox-p newAttrimdlBox-p--ferozi">Attribute Details</p>
+						<div class="newAttrimdlBox-row justify-between">
+							<div class="newAttrimdlBox-half">
+								<div class="form-input-box position-relative">
+									<input type="text" placeholder="Title" class="inputF mb-0">
+									<span class="form-input-sm-name">Title </span>
+								</div>
+							</div>
+							<div class="newAttrimdlBox-half">
+								<div class="form-input-box position-relative">
+									<input type="text" placeholder="Value" class="inputF mb-0">
+									<span class="form-input-sm-name">Value </span>
+								</div>
+							</div>
+						</div>
+						<p class="newAttrimdlBox-p">New Attribute</p>
+						<div class="newAttrimdlBox-row justify-between">
+							<div class="addNewAttriBtn">
+								<i class="fa fa-plus"></i>
+							</div>
+							<div class="addnewattriform">
+								<input type="text" placeholder="attribute name" class="addnewattriform-input">
+								<button type="submit" class="addnewattriform-btn flex-a">Save</button>
+							</div>
+						</div>
+						<div class="addnewextrafeild">
+							<div class="attriboxList-box flex-i">
+								<div class="attriboxList-box-mini flex-a r-50">
+									<i class="fa-solid fa-check"></i>
+								</div>
+								<p class="attriboxList-box-p">New Extra Fields </p>
+							</div>
+							<div class="addnewextrafeild-del-btn flex-a"><i class="fa-solid fa-trash-can"></i> Delete</div>
+						</div>
+					</div>
+					<div class="mdl-ftr">
+						<div class="creat-prdftr gap-4 flex-i justify-end">
+							<button class="prdftr-btn prdftr-btn1 prdftr-btn3  flex-a" data-bs-dismiss="modal">Cancel</button>
+							<button class="prdftr-btn prdftr-btn2 flex-a">Save</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- newAtrribute modal End -->
+	<div class="modal fade" id="delmdl" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content delmdl">
+				<div class="delmdlbody">
+					<div class="delmdlhdr flex-a">
+						<div class="delmdlhdr-box">
+							<i class="fa-solid fa-xmark"></i>
+						</div>
+					</div>
+					<p class="delmdlhdr-p">Are you sure you want delete this item</p>
+				</div>
+				<div class="delmdlftr flex-i justify-content-end gap-3">
+					<button type="button" data-bs-dismiss="modal" class="delmdlftr-btn delmdlftr-btn1">Cencel</button>
+					<button type="submit" class="delmdlftr-btn delmdlftr-btn2">Confirm</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- delete modal end -->
+	<div class="modal fade" id="crtcate" tabindex="-1" aria-labelledby="crtcateLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered modal-lg border-0">
+			<div class="modal-content pd-0">
+				<div class="attributeDetails__mdl">
+					<div class="attributeDetails__mdl-hdr">
+						New Category
+					</div>
+					<div class="attributeDetails__mdl-bdy">
+						<p class="newAttrimdlBox-p"> Category Name</p>
+						<div class="mdl-cate-r flex-i justify-between mb-3">
+							<div class="form-input-box  position-relative w-100">
+								<input type="text" placeholder="Name" class="inputF mb-0">
+								<span class="form-input-sm-name">Name</span>
+							</div>
+
+						</div>
+						<div class="mdl-cate-neg1 form-input-box">
+							<div class="ckbbox flex-i justify-between">
+								<input type="checkbox" id="checkbox3" class="ckbbox-input">
+								<label for="checkbox3" class="checkbox-label">
+									<div class="flex-a">
+										<i class="fa-sharp fa-solid fa-check"></i>
+									</div>
+								</label>
+								<p class="ckbbox-p">Active</p>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<div class="mdl-ftr">
+					<div class="creat-prdftr gap-4 flex-i justify-end">
+						<button class="prdftr-btn prdftr-btn1 prdftr-btn3  flex-a" type="button" data-bs-toggle="modal"
+							data-bs-target="#newAtrribute">Back</button>
+						<button class="prdftr-btn prdftr-btn2 flex-a">Save</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- add category end -->
+	<div class="modal fade" id="newtype" tabindex="-1" aria-labelledby="crtcateLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered modal-lg border-0">
+			<div class="modal-content pd-0">
+				<div class="attributeDetails__mdl">
+					<div class="attributeDetails__mdl-hdr">
+						New Type
+					</div>
+					<div class="attributeDetails__mdl-bdy">
+						<p class="newAttrimdlBox-p"> Type Name</p>
+						<div class="mdl-cate-r flex-i justify-between mb-3">
+							<div class="form-input-box  position-relative w-100">
+								<input type="text" placeholder="Name" class="inputF mb-0">
+								<span class="form-input-sm-name">Name</span>
+							</div>
+
+						</div>
+						<div class="mdl-cate-neg1 form-input-box">
+							<div class="ckbbox flex-i justify-between">
+								<input type="checkbox" id="checkbox3" class="ckbbox-input">
+								<label for="checkbox3" class="checkbox-label">
+									<div class="flex-a">
+										<i class="fa-sharp fa-solid fa-check"></i>
+									</div>
+								</label>
+								<p class="ckbbox-p">Active</p>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<div class="mdl-ftr">
+					<div class="creat-prdftr gap-4 flex-i justify-end">
+						<button class="prdftr-btn prdftr-btn1 prdftr-btn3  flex-a" type="button" data-bs-toggle="modal"
+							data-bs-target="#newAtrribute">Back</button>
+						<button class="prdftr-btn prdftr-btn2 flex-a">Save</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- add category end -->
+	<script src="dist/jquery-3.6.1/jquery-3.6.1.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+	<script src="dist/bootstrap-5.2.2/js/bootstrap.bundle.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.4.2/echarts.min.js" integrity="sha512-VdqgeoWrVJcsDXFlQEKqE5MyhaIgB9yXUVaiUa8DR2J4Lr1uWcFm+ZH/YnzV5WqgKf4GPyHQ64vVLgzqGIchyw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+	<script src="https://code.highcharts.com/highcharts.src.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+	<script src="https://unpkg.com/create-file-list"></script>
+	<script>
+		function dataFileDnD() {
+			return {
+				files: [],
+				fileDragging: null,
+				fileDropping: null,
+				humanFileSize(size) {
+					const i = Math.floor(Math.log(size) / Math.log(1024));
+					return (
+						(size / Math.pow(1024, i)).toFixed(2) * 1 +
+						" " +
+						["B", "kB", "MB", "GB", "TB"][i]
+					);
+				},
+				remove(index) {
+					let files = [...this.files];
+					files.splice(index, 1);
+
+					this.files = createFileList(files);
+				},
+				drop(e) {
+					let removed, add;
+					let files = [...this.files];
+
+					removed = files.splice(this.fileDragging, 1);
+					files.splice(this.fileDropping, 0, ...removed);
+
+					this.files = createFileList(files);
+
+					this.fileDropping = null;
+					this.fileDragging = null;
+				},
+				dragenter(e) {
+					let targetElem = e.target.closest("[draggable]");
+
+					this.fileDropping = targetElem.getAttribute("data-index");
+				},
+				dragstart(e) {
+					this.fileDragging = e.target
+						.closest("[draggable]")
+						.getAttribute("data-index");
+					e.dataTransfer.effectAllowed = "move";
+				},
+				loadFile(file) {
+					const preview = document.querySelectorAll(".preview");
+					const blobUrl = URL.createObjectURL(file);
+
+					preview.forEach(elem => {
+						elem.onload = () => {
+							URL.revokeObjectURL(elem.src); // free memory
+						};
+					});
+
+					return blobUrl;
+				},
+				addFiles(e) {
+					const files = createFileList([...this.files], [...e.target.files]);
+					this.files = files;
+					this.form.formData.files = [...files];
+				}
+			};
+		}
+	</script>
+	<script src="assets/js/scripts.js"></script>
+</body>
+
+</html>

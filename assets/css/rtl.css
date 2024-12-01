@@ -1,0 +1,62 @@
+.rtl .aside {
+    left: auto;
+    right: 0;
+}
+.rtl .logo_wrapper {
+    left: auto;
+    right: 0;
+}
+.rtl .dashboard_header {
+    right: auto;
+    left: 0;
+}
+.rtl .main {
+    margin-left: 0;
+    margin-right: auto;
+}
+.rtl .navbar_search_box_btn {
+    right: auto;
+    left: 10px;
+}
+.rtl .table2-pagi-next i,
+.rtl .table2-pagi-pre i{
+    transform: scaleX(-1);
+}
+.rtl .tblprdShow-ab {
+    right: auto;
+    left: 100%;
+}
+.rtl .asideClose {
+    right: auto;
+    left: 10px;
+}
+.rtl .navbar_box1 {
+    margin-right: 0;
+    margin-left: auto;
+}
+.rtl .prdSide1-Srch_btn {
+    inset: auto auto auto 8px;
+}
+.rtl .form-select{
+    background-position: left .25rem center;
+}
+.rtl .prdSide2_box-box1{
+    border-radius: 0px 6px 6px 0px;
+}
+.rtl .prdSide2_box-box2{
+    border-radius: 6px 0 0 6px;
+}
+.rtl .notiDropDown{
+    right: auto;
+    left: -20px;
+}
+.rtl .notiDropDown::after {
+    right: auto;
+    left: 0;
+}
+@media(max-width:1023px){
+    .rtl .pfDropdown {
+        left: 0 !important;
+        right: auto !important;
+    }
+}

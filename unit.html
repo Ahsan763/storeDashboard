@@ -1,0 +1,837 @@
+<!doctype html>
+<html dir="ltr">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Unit</title>
+	<!-- Favicons -->
+	<link href="assets/images/favicone.png" rel="icon">
+	<!-- font aweasome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+	<!-- bootstrap 5.2.2 -->
+	<script src="https://cdn.tailwindcss.com"></script>
+	<link href="dist/bootstrap-5.2.2/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+	<!-- form select -->
+	<link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+	<!-- fonts -->
+	<link href="dist/fonts/fonts.css" rel="stylesheet">
+	<!-- Main Stylesheet File -->
+	<link href="assets/css/aside.css" rel="stylesheet">
+	<link href="assets/css/style.css" rel="stylesheet">
+	<link href="assets/css/main.css" rel="stylesheet">
+	<link href="assets/css/media_queries.css" rel="stylesheet">
+	<link href="assets/css/rtl.css" rel="stylesheet">
+</head>
+
+<body>
+	<div class="app">
+		<div class="dashboard-wrapper flex">
+			<aside class="aside">
+				<button type="button" class="asideClose">
+					<i class="fa-solid fa-xmark"></i>
+				</button>
+				<a href="/" class="logo_wrapper flex items-center">
+					<div class="logo_holder">
+						<img src="assets/images/logo.png" alt="skilled logo" class="logo_img dark-none" />
+						<img src="assets/images/logo_white.svg" alt="skilled logo" class="logo_img d-none dark-show" />
+					</div>
+				</a>
+				<div class="aside_container">
+					<div class="asidbox">
+						<div class="asidbox_icons asidbox_icons2">
+							<div class="asidbox_icons-inner">
+								<i class="fa-solid fa-check"></i>
+							</div>
+						</div>
+						<p class="asidbox_Link">
+							Admin A7med
+						</p>
+						<div class="asidbox-sm">
+							<img src="assets/images/team2.jpg" alt="" class="asidbox-sm-img">
+							<p class="asidbox-sm-name">Admin A7med</p>
+						</div>
+					</div>
+					<a href="/" class="asidbox active">
+						<div class="asidbox_icons">
+							<i class="fa-solid fa-gauge asidbox_icons_icon"></i>
+						</div>
+						<p class="asidbox_Link">
+							Dashboard
+						</p>
+					</a>
+					<div class="asidbox">
+						<div class="asidbox_icons">
+							<i class="fa-solid fa-cart-shopping"></i>
+						</div>
+						<div class="asidbox_Link-wrapper">
+							<div class="asidbox_Link">
+								Inventory
+							</div>
+							<i class="fa-solid fa-chevron-down asidbox_LinkIcn"></i>
+						</div>
+						<ul class="aside-drop">
+							<li>
+								<a href="products.html" class="asidbox_Link2">
+									<div></div>
+									Products
+								</a>
+							</li>
+							<li>
+								<a href="categories.html" class="asidbox_Link2">
+									<div></div>
+									Categories
+								</a>
+							</li>
+							<li>
+								<a href="brands.html" class="asidbox_Link2">
+									<div></div>
+									Brands
+								</a>
+							</li>
+							<li>
+								<a href="#" class="asidbox_Link2">
+									<div></div>
+									Tax Settings
+								</a>
+							</li>
+							<li>
+								<a href="#" class="asidbox_Link2">
+									<div></div>
+									Warehouses
+								</a>
+							</li>
+							<li>
+								<a href="unit.html" class="asidbox_Link2">
+									<div></div>
+									Unit
+								</a>
+							</li>
+							<li>
+								<a href="collections.html" class="asidbox_Link2">
+									<div></div>
+									Collections
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="asidbox">
+						<div class="asidbox_icons">
+							<i class="fa-solid fa-basket-shopping"></i>
+						</div>
+						<div class="asidbox_Link-wrapper">
+							<div class="asidbox_Link">
+								Orders
+							</div>
+							<i class="fa-solid fa-chevron-down asidbox_LinkIcn"></i>
+						</div>
+						<ul class="aside-drop">
+							<li>
+								<a href="orders.html" class="asidbox_Link2">
+									<div></div>
+									All Order
+								</a>
+							</li>
+							<li>
+								<a href="order-returns.html" class="asidbox_Link2">
+									<div></div>
+									Returns
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="asidbox">
+						<div class="asidbox_icons">
+							<i class="fa-solid fa-file-invoice"></i>
+						</div>
+						<div class="asidbox_Link-wrapper">
+							<div class="asidbox_Link">
+								Reports
+							</div>
+							<i class="fa-solid fa-chevron-down asidbox_LinkIcn"></i>
+						</div>
+						<ul class="aside-drop">
+							<li>
+								<a href="reports.html" class="asidbox_Link2">
+									<div></div>
+									All Reports
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="asidbox">
+						<div class="asidbox_icons">
+							<i class="fa-solid fa-gears"></i>
+						</div>
+						<div class="asidbox_Link-wrapper">
+							<div class="asidbox_Link">
+								Themes Settings
+							</div>
+							<i class="fa-solid fa-chevron-down asidbox_LinkIcn"></i>
+						</div>
+						<ul class="aside-drop">
+							<li>
+								<a href="#" class="asidbox_Link2">
+									<div></div>
+									About us
+								</a>
+							</li>
+							<li>
+								<a href="contact.html" class="asidbox_Link2">
+									<div></div>
+									Contact us
+								</a>
+							</li>
+							<li>
+								<a href="#" class="asidbox_Link2">
+									<div></div>
+									Slider
+								</a>
+							</li>
+							<li>
+								<a href="ads.html" class="asidbox_Link2">
+									<div></div>
+									Ads
+								</a>
+							</li>
+							<li>
+								<a href="subscription.html" class="asidbox_Link2">
+									<div></div>
+									Subscription
+								</a>
+							</li>
+							<li>
+								<a href="privacy-policy.html" class="asidbox_Link2">
+									<div></div>
+									Privacy Policy
+								</a>
+							</li>
+							<li>
+								<a href="terms-and-conditions.html" class="asidbox_Link2">
+									<div></div>
+									Terms & Conditions
+								</a>
+							</li>
+							<li>
+								<a href="how-to-order.html" class="asidbox_Link2">
+									<div></div>
+									How to Order
+								</a>
+							</li>
+							<li>
+								<a href="blog.html" class="asidbox_Link2">
+									<div></div>
+									Blog
+								</a>
+							</li>
+							<li>
+								<a href="frequently-asked-questions.html" class="asidbox_Link2">
+									<div></div>
+									F&Q
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="asidbox">
+						<div class="asidbox_icons">
+							<i class="fa-solid fa-users"></i>
+						</div>
+						<div class="asidbox_Link-wrapper">
+							<div class="asidbox_Link">
+								Users
+							</div>
+							<i class="fa-solid fa-chevron-down asidbox_LinkIcn"></i>
+						</div>
+						<ul class="aside-drop">
+							<li>
+								<a href="#" class="asidbox_Link2">
+									<div></div>
+									Employees
+								</a>
+							</li>
+							<li>
+								<a href="#" class="asidbox_Link2">
+									<div></div>
+									Customers
+								</a>
+							</li>
+							<li>
+								<a href="#" class="asidbox_Link2">
+									<div></div>
+									Users
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="asidbox">
+						<div class="asidbox_icons">
+							<i class="fa-solid fa-gears"></i>
+						</div>
+						<div class="asidbox_Link-wrapper">
+							<div class="asidbox_Link">
+								Settings
+							</div>
+							<i class="fa-solid fa-chevron-down asidbox_LinkIcn"></i>
+						</div>
+						<ul class="aside-drop">
+							<li>
+								<a href="#" class="asidbox_Link2">
+									<div></div>
+									Role & Permission
+								</a>
+							</li>
+							<li>
+								<a href="#" class="asidbox_Link2">
+									<div></div>
+									Site Settings
+								</a>
+							</li>
+							<li>
+								<a href="#" class="asidbox_Link2">
+									<div></div>
+									Users
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="theme">
+						<p class="theme-p">Switch To Dark</p>
+						<div class="theme-btn">
+							<div class="theme-btn-onof"></div>
+						</div>
+					</div>
+					<button class="logout-btn">
+						Logout
+					</button>
+					<!-- <div class="flex items-center madebytexbox">
+					Made <span class="madeby"> By </span> Skilled Tech
+				</div> -->
+				</div>
+			</aside>
+			<main class="main">
+				<div class="dashboard_header">
+					<div class="navbar">
+						<button class="sidebar_btn">
+							<i class="fa-solid fa-bars-sort sidebar_btn_icon"></i>
+						</button>
+						<div class="navbar_box1">
+							<p class="navbar_box_text">Hello Admin</p>
+						</div>
+						<div class="navbar_box2">
+							<div class="navbar_search_box">
+								<input type="text" placeholder="Search" class="navbar_search_box_input" />
+								<button type="submit" class="navbar_search_box_btn">
+									<i class="fa fa-search navbar_search_box_btn_icone"></i>
+								</button>
+							</div>
+							<div class="language_toggle">
+								<div class="language_toggle_ar">
+									<i class="fa-solid fa-earth-europe"></i>
+									<p class="language_toggle-p">Ar</p>
+								</div>
+								<div class="language_toggle_en">
+									<i class="fa-solid fa-earth-europe"></i>
+									<p class="language_toggle-p">En</p>
+								</div>
+							</div>
+							<a href="#" class="vistsite-btn">
+								View The Shop
+								<i class="fa-solid fa-arrow-up-right-from-square"></i>
+							</a>
+							<div class="navbar_noti_box">
+								<i class="fa-solid fa-bell"></i>
+								<div class="notiDropDown">
+									<div class="notiHdr">
+										Notification
+										<div class="noti_box-mark">Mark all as read</div>
+									</div>
+									<div class="notiBody">
+										<div class="notiRow">
+											<div class="notiRowB">
+												<img src="assets/images/team3.jpg" alt="" class="notiRowB-img">
+											</div>
+											<div class="notiRow-bdy">
+												<a href="#" class="notiRow-bdy-link">New User Register in </a>
+												<p class="notiRow-bdy-time">1:20 PM</p>
+											</div>
+										</div>
+										<div class="notiRow">
+											<div class="notiRowB">
+												<img src="assets/images/products/laptop-computer.png" alt="" class="notiRowB-img">
+											</div>
+											<div class="notiRow-bdy">
+												<a href="#" class="notiRow-bdy-link">Product No <span class="orange">#238</span> out of
+													stock</a>
+												<p class="notiRow-bdy-time">1:20 PM</p>
+											</div>
+										</div>
+										<div class="notiRow">
+											<div class="notiRowB">
+												<img src="assets/images/team3.jpg" alt="" class="notiRowB-img">
+											</div>
+											<div class="notiRow-bdy">
+												<a href="#" class="notiRow-bdy-link">New User Register in </a>
+												<p class="notiRow-bdy-time">1:20 PM</p>
+											</div>
+										</div>
+									</div>
+									<div class="notiFtr">
+										<a href="#" class="notiFtr-link">See All Notification</a>
+									</div>
+								</div>
+							</div>
+							<!-- profile button with dropdown -->
+							<div class="dropdown">
+								<div class="nav_pf_box flex items-center dropdown-toggle" role="button" id="dropdownMenuLink"
+									data-bs-toggle="dropdown" aria-expanded="false">
+									<div class="nav_pf_box_hol">
+										<img src="assets/images/team2.jpg" alt="" class="nav_pf_box_img" />
+									</div>
+									<h6 class="nav_pf_box_name">Muhammad Ahmed</h6>
+								</div>
+								<ul class="dropdown-menu pfDropdown" aria-labelledby="dropdownMenuLink">
+									<li class="pfDropdown_item pfDropdown-hdr">
+										<a href="profile.html" class="pfDropdown_box gap-2 flex items-center">
+											<img src="assets/images/team2.jpg" alt="" class="pfDropdown_box-img">
+											<h6 class="pfDropdown_name pfDropdown_text2">Admin A7med</h6>
+										</a>
+									</li>
+									<li class="pfDropdown_item">
+										<a href="profile.html" class="pfDropdown_link">
+											<div class="pfDropdown_icone">
+												<i class="fa-solid fa-user"></i>
+											</div>
+											<h6 class="pfDropdown_text">My Profile</h6>
+										</a>
+									</li>
+									<li class="pfDropdown_item">
+										<a href="#" class="pfDropdown_link">
+											<div class="pfDropdown_icone">
+												<i class="fa-solid fa-bag-shopping"></i>
+											</div>
+											<h6 class="pfDropdown_text">Setting</h6>
+										</a>
+									</li>
+									<li class="pfDropdown_item pfDropdown_item-ftr">
+										<a href="login.html" class="pfDropdown_link">
+											<div class="pfDropdown_icone">
+												<i class="fa-solid fa-arrow-right-from-bracket"></i>
+											</div>
+											<h6 class="pfDropdown_text pfDropdown_text2">Log Out</h6>
+										</a>
+									</li>
+								</ul>
+							</div>
+							<!-- profile button with dropdown -->
+						</div>
+					</div>
+					<div class="navbar_search_box_mobile">
+						<input type="text" placeholder="search" class="navbar_search_box_mobile_input" />
+					</div>
+				</div>
+				<div class="main_body">
+					<div class="container-fluid">
+						<div class="card">
+							<div class="products-main-row">
+								<div class="prdSide1">
+									<div class="prdSide1-hdr flex-i">
+										<div class="flex-i gap-3">
+											<div class="prdSide1-hdrBtn" type="button" data-bs-toggle="modal" data-bs-target="#addunit">
+												<i class="fa-solid fa-plus"></i>
+												Create New
+											</div>
+										</div>
+										<div class="prdSide1-Srch flex-i">
+											<input type="text" placeholder="Search For" class="prdSide1-Srch_inpt">
+											<button type="submit" class="prdSide1-Srch_btn flex-a r-50">
+												<i class="fa fa-search"></i>
+											</button>
+										</div>
+										<div class="prdFiltBox-wrpr flex-i justify-between">
+											<div class="prdFiltBox flex-i">
+												<p class="prdFiltBox-p">By</p>
+												<select name="" id="" class="prdFiltBox-sel form-select">
+													<option value="">Status</option>
+													<option value="">Category 2</option>
+													<option value="">Category 3</option>
+													<option value="">Category 4</option>
+													<option value="">Category 5</option>
+												</select>
+											</div>
+										</div>
+
+									</div>
+									<div class="prdSide1-hdr2 flex-i justify-between">
+										<label class="ckblabel checkboxAll-label flex-i gap-2">
+											<input type="checkbox" class="checkboxAll" name="option2" value="option2" id="select-all">
+											<p> Select All</p>
+										</label>
+										<div class="exprtBox-wrapr flex-i">
+											<div class="exprtBox flex-i">
+												<p class="exprtBox-p">Export To</p>
+												<div class="flex-i gap-2">
+													<a href="#" class="exprtBox-sm">
+														<i class="fa-solid fa-file-excel"></i>
+														<p class="exprtBox-sm-p">Excel</p>
+													</a>
+													<a href="#" class="exprtBox-sm">
+														<i class="fa-solid fa-file-pdf"></i>
+														<p class="exprtBox-sm-p">PDF</p>
+													</a>
+												</div>
+											</div>
+											<p class="or">or</p>
+											<a href="#" class="exprtBox-sm exprtBox-sm-green">
+												<i class="fa-solid fa-print"></i>
+												<p class="exprtBox-sm-p">Print</p>
+											</a>
+											<div class="prdShowFiltr flex-i">
+												<div class="flex-i gap-2">
+													<p class="prdShowFiltr-p">Show</p>
+													<select name="" id="" class="form-select prdShowFiltr-sel prdShowFiltr-sel1">
+														<option value="">10</option>
+														<option value="">15</option>
+													</select>
+												</div>
+												<select name="" id="" class="form-select prdShowFiltr-sel prdShowFiltr-sel2">
+													<option selected disabled>Sort By</option>
+													<option value="">name</option>
+													<option value="">Date</option>
+												</select>
+											</div>
+											<div class="listGridBtnWrpr flex-i">
+												<div class="girdbtn flex-a">
+													<i class="fa-solid fa-grip"></i>
+												</div>
+												<div class="listbtn flex-a active">
+													<i class="fa-sharp fa-solid fa-list"></i>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="prdSide1-body">
+										<div class="listview active">
+											<div class="tableController">
+												<table class="prdttable prdttable--unit">
+													<thead>
+														<tr class="bd-none bodyRow">
+															<th class="prdttableCol prdttableCol1">
+															</th>
+															<th class="prdttableCol prdttableCol2">
+																ID
+															</th>
+															<th class="prdttableCol prdttableCol3">Name</th>
+															<th class="prdttableCol prdttableCol4">Status</th>
+															<th class="prdttableCol prdttableCol5">Date</th>
+															<th class="prdttableCol prdttableCol6"></th>
+														</tr>
+													</thead>
+													<tbody class="prdttableBody">
+														<tr class="bodyRow">
+															<td class="prdttableCol prdttableCol1">
+																<label>
+																	<input type="checkbox" class="checkbox" name="option3" value="option3">
+																</label>
+															</td>
+															<td class="prdttableCol prdttableCol2">
+																1
+															</td>
+															<td class="prdttableCol prdttableCol3">
+																Subcategory1
+															</td>
+															<td class="prdttableCol prdttableCol4">
+																<span class="stock">
+																	active
+																</span>
+															</td>
+															<td class="prdttableCol prdttableCol5">
+																<div class="prdttableCol-date">
+																	23/23/23
+																</div>
+															</td>
+															<td class="prdttableCol prdttableCol6">
+																<div class="tblprdShow">
+																	<i class="fa-solid fa-ellipsis-vertical"></i>
+																	<div class="tblprdShow-ab">
+																		<div class="tblprdShow-ab-row flex-i" type="button" data-bs-toggle="modal"
+																			data-bs-target="#editunit">
+																			<i class="fa-solid fa-pen"></i>
+																			<p class="tblprdShow-ab-text">Edit</p>
+																		</div>
+																		<div class="tblprdShow-ab-row flex-i" type="button" data-bs-toggle="modal"
+																			data-bs-target="#delmdl">
+																			<i class="fa-solid fa-trash"></i>
+																			<p class="tblprdShow-ab-text">Delete</p>
+																		</div>
+																	</div>
+																</div>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+											</div>
+										</div>
+										<div class="gridview">
+											<div class="prdCrd prdCrd-categ">
+												<div class="prdCrd-hdr">
+													<div class="prdCrd-hdr-top flex-i justify-between">
+														<input type="checkbox" class="checkbox">
+														<div class="tblprdShow">
+															<i class="fa-solid fa-ellipsis-vertical"></i>
+															<div class="tblprdShow-ab">
+																<div class="tblprdShow-ab-row flex-i" type="button" data-bs-toggle="modal"
+																	data-bs-target="#editunit">
+																	<i class="fa-solid fa-pen"></i>
+																	<p class="tblprdShow-ab-text">Edit</p>
+																</div>
+																<div class="tblprdShow-ab-row flex-i" type="button" data-bs-toggle="modal"
+																	data-bs-target="#delmdl">
+																	<i class="fa-solid fa-trash"></i>
+																	<p class="tblprdShow-ab-text">Delete</p>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="prdCrd-hdr-holder flex-a">
+														unit
+													</div>
+												</div>
+												<div class="prdCrd-bdy">
+													<div class="flex-i justify-between">
+														<span class="stock">
+															active
+														</span>
+														<p class="prdCrdDate">
+															12/3/2022
+														</p>
+													</div>
+												</div>
+											</div>
+
+										</div>
+										<div class="table2-pagi flex-i justify-between">
+											<a href="#" class="table2-pagi-pre flex-a">
+												<i class="fa-solid fa-angle-left"></i>
+											</a>
+											<div class="page-link flex-i">
+												<a href="#" class="plik active">1</a>
+												<a href="#" class="plik">2</a>
+												<a href="#" class="plik">3</a>
+												<a href="#" class="plik">4</a>
+												<a href="#" class="plik">5</a>
+												<a href="#" class="plik">6</a>
+												<a href="#" class="plik">7</a>
+											</div>
+											<a href="#" class="table2-pagi-next flex-a">
+												<i class="fa-solid fa-angle-right"></i>
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="prdSide2">
+									<div class="prdSide2_box flex-i">
+										<div class="prdSide2_box-box1">Warehouses Activity</div>
+										<div class="prdSide2_box-box2 flex-a">
+											<i class="fa-solid fa-wave-square"></i>
+										</div>
+									</div>
+									<div class="prdSide2-box2">
+										<div class="prdSide2-box2_imghold">
+											<img src="assets/images/team3.jpg" alt="" class="prdSide2-box2_img">
+										</div>
+										<div class="prdSide2-box2_bdy">
+											<h2 class="prdSide2-box2_name">Mohammed ali</h2>
+											<div class="prdSide2-box2_bdy-r flex-i justify-between">
+												<span class="stock OutStock">
+													Warehouse2
+												</span>
+												<p class="prdSide2-box2_bdy-p">Just Now</p>
+											</div>
+											<div class="prdSide2-box2_bdy-r2">
+												New product added by <span class="orange"> Mohammed Ali</span> in warehouse in Abu Dhabi city
+											</div>
+										</div>
+									</div>
+									<div class="prdSide2-box2">
+										<div class="prdSide2-box2_imghold">
+											<img src="assets/images/team1.jpg" alt="" class="prdSide2-box2_img">
+										</div>
+										<div class="prdSide2-box2_bdy">
+											<h2 class="prdSide2-box2_name">Mohammed ali</h2>
+											<div class="prdSide2-box2_bdy-r flex-i justify-between">
+												<span class="stock OutStock">
+													Warehouse2
+												</span>
+												<p class="prdSide2-box2_bdy-p">Just Now</p>
+											</div>
+											<div class="prdSide2-box2_bdy-r2">
+												New product added by <span class="orange"> Mohammed Ali</span> in warehouse in Abu Dhabi city
+											</div>
+										</div>
+									</div>
+									<div class="prdSide2-box2">
+										<div class="prdSide2-box2_imghold">
+											<img src="assets/images/team1.jpg" alt="" class="prdSide2-box2_img">
+										</div>
+										<div class="prdSide2-box2_bdy">
+											<h2 class="prdSide2-box2_name">Mohammed ali</h2>
+											<div class="prdSide2-box2_bdy-r flex-i justify-between">
+												<span class="stock OutStock">
+													Warehouse2
+												</span>
+												<p class="prdSide2-box2_bdy-p">Just Now</p>
+											</div>
+											<div class="prdSide2-box2_bdy-r2">
+												New product added by <span class="orange"> Mohammed Ali</span> in warehouse in Abu Dhabi city
+											</div>
+										</div>
+									</div>
+									<div class="prdSide2-box2">
+										<div class="prdSide2-box2_imghold">
+											<img src="assets/images/team1.jpg" alt="" class="prdSide2-box2_img">
+										</div>
+										<div class="prdSide2-box2_bdy">
+											<h2 class="prdSide2-box2_name">Mohammed ali</h2>
+											<div class="prdSide2-box2_bdy-r flex-i justify-between">
+												<span class="stock OutStock">
+													Warehouse2
+												</span>
+												<p class="prdSide2-box2_bdy-p">Just Now</p>
+											</div>
+											<div class="prdSide2-box2_bdy-r2">
+												New product added by <span class="orange"> Mohammed Ali</span> in warehouse in Abu Dhabi city
+											</div>
+										</div>
+									</div>
+									<div class="prdSide2-box2">
+										<div class="prdSide2-box2_imghold">
+											<img src="assets/images/team1.jpg" alt="" class="prdSide2-box2_img">
+										</div>
+										<div class="prdSide2-box2_bdy">
+											<h2 class="prdSide2-box2_name">Mohammed ali</h2>
+											<div class="prdSide2-box2_bdy-r flex-i justify-between">
+												<span class="stock OutStock">
+													Warehouse2
+												</span>
+												<p class="prdSide2-box2_bdy-p">Just Now</p>
+											</div>
+											<div class="prdSide2-box2_bdy-r2">
+												New product added by <span class="orange"> Mohammed Ali</span> in warehouse in Abu Dhabi city
+											</div>
+										</div>
+									</div>
+									<a href="#" class="prdSide2-link flex-a">
+										View All Activity
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</main>
+		</div>
+	</div>
+	<!-- Modal -->
+	<!-- Modal -->
+	<div class="modal fade" id="addunit" data-bs-keyboard="false" tabindex="-1" aria-labelledby="crtsubcateLabel"
+		aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered border-0">
+			<div class="modal-content mdl mdl-cate border-0">
+				<div class="mdl-cate-body">
+					<div class="mdl-hdr mdl-hdr-tr">
+						Create New Unit
+					</div>
+					<div class="mdl-cate-r flex-i justify-between mb-3">
+						<div class="form-input-box form-input-boxmdl-cate-neg1  position-relative ">
+							<input type="text" placeholder="Name" class="inputF mb-0">
+							<span class="form-input-sm-name">Name</span>
+						</div>
+						<div class="mdl-cate-neg1 form-input-box">
+							<div class="ckbbox flex-i justify-between">
+								<input type="checkbox" id="checkbox3" class="ckbbox-input">
+								<label for="checkbox3" class="checkbox-label">
+									<div class="flex-a">
+										<i class="fa-sharp fa-solid fa-check"></i>
+									</div>
+								</label>
+								<p class="ckbbox-p">Active</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="mdl-ftr">
+					<div class="creat-prdftr gap-4 flex-i justify-end">
+						<button class="prdftr-btn prdftr-btn1 prdftr-btn3  flex-a" data-bs-dismiss="modal">Cancel</button>
+						<button class="prdftr-btn prdftr-btn2 flex-a">Save</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="editunit" data-bs-keyboard="false" tabindex="-1" aria-labelledby="crtsubcateLabel"
+		aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered border-0">
+			<div class="modal-content mdl mdl-cate border-0">
+				<div class="mdl-cate-body">
+					<div class="mdl-hdr mdl-hdr-tr2">
+						Update Unit No # <span class="orange">1</span>
+					</div>
+					<div class="mdl-cate-r flex-i justify-between mb-3">
+						<div class="form-input-box form-input-boxmdl-cate-neg1  position-relative ">
+							<input type="text" placeholder="Name" class="inputF mb-0">
+							<span class="form-input-sm-name">Name</span>
+						</div>
+						<div class="mdl-cate-neg1 form-input-box">
+							<div class="ckbbox flex-i justify-between">
+								<input type="checkbox" id="checkbox3" class="ckbbox-input">
+								<label for="checkbox3" class="checkbox-label">
+									<div class="flex-a">
+										<i class="fa-sharp fa-solid fa-check"></i>
+									</div>
+								</label>
+								<p class="ckbbox-p">Active</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="mdl-ftr">
+					<div class="creat-prdftr gap-4 flex-i justify-end">
+						<button class="prdftr-btn prdftr-btn1 prdftr-btn3  flex-a" data-bs-dismiss="modal">Cancel</button>
+						<button class="prdftr-btn prdftr-btn2 flex-a">Save</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="delmdl" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content delmdl">
+				<div class="delmdlbody">
+					<div class="delmdlhdr flex-a">
+						<div class="delmdlhdr-box">
+							<i class="fa-solid fa-xmark"></i>
+						</div>
+					</div>
+					<p class="delmdlhdr-p">Are you sure you want delete this item</p>
+				</div>
+				<div class="delmdlftr flex-i justify-content-end gap-3">
+					<button type="button" data-bs-dismiss="modal" class="delmdlftr-btn delmdlftr-btn1">Cencel</button>
+					<button type="submit" class="delmdlftr-btn delmdlftr-btn2">Confirm</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="dist/jquery-3.6.1/jquery-3.6.1.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+	<script src="dist/bootstrap-5.2.2/js/bootstrap.bundle.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.4.2/echarts.min.js" integrity="sha512-VdqgeoWrVJcsDXFlQEKqE5MyhaIgB9yXUVaiUa8DR2J4Lr1uWcFm+ZH/YnzV5WqgKf4GPyHQ64vVLgzqGIchyw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+	<script src="https://code.highcharts.com/highcharts.src.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+	<script src="https://unpkg.com/create-file-list"></script>
+	<script src="assets/js/scripts.js"></script>
+</body>
+
+</html>
